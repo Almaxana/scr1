@@ -122,7 +122,7 @@ trap_vector:                                                            \
         beq a4, a5, _report;                                            \
                                                                         \
         /* init for loop, 0xf0000000 address for print */               \
-        li a6, 0xf0000000;                                                 \
+        li a6, 0xf0000000;                                              \
         la a7, MSG_TRAP;                                                \
 next_iter:                                                              \
         lb a5, 0(a7);                                                   \
