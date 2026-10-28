@@ -31,6 +31,8 @@ SECTIONS {
     *(.text.init) 
   } >RAM
 
+  .text.start 0x1000 : { *(.text.start) } >RAM
+
   .text  : {
     *crt.o(.text .text.*)
     *(.text .text.*)
