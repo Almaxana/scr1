@@ -1,0 +1,375 @@
+---Test:                          sub.hex
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 00000000
+  x2 = 00000000
+  x3 = 00000000
+  x4 = 00000000
+  x5 = 000002a0
+  x6 = 00000000
+  x28 = 00000000
+  x29 = 00000000
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 00000000
+  x2 = 00000000
+  x3 = 00000000
+  x4 = 00000000
+  x5 = 000002a0
+  x6 = 00000000
+  x28 = 00000002
+  x29 = 00000000
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 00000001
+  x2 = 00000001
+  x3 = 00000000
+  x4 = 00000000
+  x5 = 000002a0
+  x6 = 00000000
+  x28 = 00000003
+  x29 = 00000000
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 00000003
+  x2 = 00000007
+  x3 = fffffffc
+  x4 = 00000000
+  x5 = 000002a0
+  x6 = 00000000
+  x28 = 00000004
+  x29 = fffffffc
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 80000000
+  x2 = 00000000
+  x3 = 80000000
+  x4 = 00000000
+  x5 = 000002a0
+  x6 = 00000000
+  x28 = 00000006
+  x29 = 80000000
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 00000000
+  x2 = 00007fff
+  x3 = ffff8001
+  x4 = 00000000
+  x5 = 000002a0
+  x6 = 00000000
+  x28 = 00000008
+  x29 = ffff8001
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 7fffffff
+  x2 = 00000000
+  x3 = 7fffffff
+  x4 = 00000000
+  x5 = 000002a0
+  x6 = 00000000
+  x28 = 00000009
+  x29 = 7fffffff
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 80000000
+  x2 = 00007fff
+  x3 = 7fff8000
+  x4 = 00000000
+  x5 = 000002a0
+  x6 = 00000000
+  x28 = 0000000a
+  x29 = 7fff8000
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 7fffffff
+  x2 = ffff8000
+  x3 = 80007fff
+  x4 = 00000000
+  x5 = 000002a0
+  x6 = 00000000
+  x28 = 0000000c
+  x29 = 80007fff
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = ffffffff
+  x2 = 00000001
+  x3 = fffffffe
+  x4 = 00000000
+  x5 = 000002a0
+  x6 = 00000000
+  x28 = 0000000e
+  x29 = fffffffe
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = ffffffff
+  x2 = ffffffff
+  x3 = 00000000
+  x4 = 00000000
+  x5 = 000002a0
+  x6 = 00000000
+  x28 = 0000000f
+  x29 = 00000000
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 00000002
+  x2 = 0000000b
+  x3 = 00000000
+  x4 = 00000000
+  x5 = 000002a0
+  x6 = 00000000
+  x28 = 00000010
+  x29 = 00000002
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 00000000
+  x2 = 00000003
+  x3 = 00000000
+  x4 = 00000000
+  x5 = 000002a0
+  x6 = 00000000
+  x28 = 00000012
+  x29 = 00000000
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 0000000d
+  x2 = 0000000b
+  x3 = 00000002
+  x4 = 00000001
+  x5 = 00000002
+  x6 = 00000002
+  x28 = 00000012
+  x29 = 00000000
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 0000000d
+  x2 = 0000000b
+  x3 = 00000002
+  x4 = 00000002
+  x5 = 00000002
+  x6 = 00000002
+  x28 = 00000013
+  x29 = 00000002
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 0000000e
+  x2 = 0000000b
+  x3 = 00000003
+  x4 = 00000001
+  x5 = 00000002
+  x6 = 00000003
+  x28 = 00000013
+  x29 = 00000002
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 0000000f
+  x2 = 0000000b
+  x3 = 00000003
+  x4 = 00000000
+  x5 = 00000002
+  x6 = 00000004
+  x28 = 00000017
+  x29 = 00000003
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 0000000f
+  x2 = 0000000b
+  x3 = 00000004
+  x4 = 00000001
+  x5 = 00000002
+  x6 = 00000004
+  x28 = 00000017
+  x29 = 00000003
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 0000000f
+  x2 = 0000000b
+  x3 = 00000004
+  x4 = 00000000
+  x5 = 00000002
+  x6 = 00000004
+  x28 = 00000018
+  x29 = 00000004
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 0000000d
+  x2 = 0000000b
+  x3 = 00000002
+  x4 = 00000001
+  x5 = 00000002
+  x6 = 00000004
+  x28 = 00000018
+  x29 = 00000004
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 0000000f
+  x2 = 0000000b
+  x3 = 00000003
+  x4 = 00000000
+  x5 = 00000002
+  x6 = 00000004
+  x28 = 0000001a
+  x29 = 00000003
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 0000000f
+  x2 = 0000000b
+  x3 = 00000004
+  x4 = 00000001
+  x5 = 00000002
+  x6 = 00000004
+  x28 = 0000001a
+  x29 = 00000003
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 0000000e
+  x2 = 0000000b
+  x3 = 00000003
+  x4 = 00000000
+  x5 = 00000002
+  x6 = 00000004
+  x28 = 0000001d
+  x29 = 00000003
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 0000000f
+  x2 = 0000000b
+  x3 = 00000004
+  x4 = 00000001
+  x5 = 00000002
+  x6 = 00000004
+  x28 = 0000001d
+  x29 = 00000003
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 0000000f
+  x2 = 0000000b
+  x3 = 00000004
+  x4 = 00000000
+  x5 = 00000002
+  x6 = 00000004
+  x28 = 0000001e
+  x29 = 00000004
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 0000000d
+  x2 = 0000000b
+  x3 = 00000002
+  x4 = 00000001
+  x5 = 00000002
+  x6 = 00000004
+  x28 = 0000001e
+  x29 = 00000004
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 0000000f
+  x2 = 0000000b
+  x3 = 00000004
+  x4 = 00000002
+  x5 = 00000002
+  x6 = 00000004
+  x28 = 00000021
+  x29 = 00000004
+  mstatus: MIE=0 MPIE=1
+  mie:     MSIE=0 MTIE=0 MEIE=0
+  mtvec:   MODE=0 (0-direct, 1-vectored)
+  mepc:    000002a0
+  mcause:  INTERRUPT=0 CODE=0
+  x1 = 00000000
+  x2 = 00000020
+  x3 = 00000004
+  x4 = 00000002
+  x5 = 00000002
+  x6 = 00000004
+  x28 = 00000024
+  x29 = 00000000
+Test passed
+
+#--------------------------------------
+# Summary: 1/1 tests passed
+#--------------------------------------
+
+- /home/ksenia/Win/LEARN/SoC/scr1/src/tb/scr1_top_tb_runtests.sv:199: Verilog $finish
+Simulation performed on Verilator 5.032 2025-01-01 rev (Debian 5.032-1) 
+                          Test               | build | simulation 
+                         sub.hex                OK        PASS

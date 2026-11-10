@@ -1,2 +1,4 @@
 build/**
 sim/tests/benchmarks/coremark/src/**
+*.odt
+*.odt#
